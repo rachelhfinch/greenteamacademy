@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<!-- language -->
+<html lang="en">
+
+<head>
+    <!-- ========== Meta Tags ========== -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="bracket-web">
+    <meta name="description" content="Working to create a world of greener, cleaner, and more sustainable energy, one community at a time">
+
+    <!-- ======== Page title ============ -->
+    <title>Community Dreams Foundation</title>
+
+    <!-- ========== Favicon Icon ========== -->
+    <link rel="shortcut icon" href="assets/images/favicons/apple-touch-icon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/favicons/site.webmanifest">
+
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=DM+Sans:400,400i,500,500i,600,600i,700,700i,800,900%7CInter:400,400i,500,500i,600,600i,700,700i,800&subset=latin,latin-ext" rel="stylesheet">
+
+
+    <!-- ===========  All Stylesheet ================= -->
+    <!--  Bootstrap css plugins -->
+    <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css">
+    <!--  bootstrap-select css plugins -->
+    <link rel="stylesheet" href="assets/vendors/bootstrap-select/bootstrap-select.min.css">
+    <!--  animate css plugins -->
+    <link rel="stylesheet" href="assets/vendors/animate/animate.min.css">
+    <!--  fontawesome css plugins -->
+    <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css">
+    <!--  jquery-ui css plugins -->
+    <link rel="stylesheet" href="assets/vendors/jquery-ui/jquery-ui.css">
+    <!--  jarallax css plugins -->
+    <link rel="stylesheet" href="assets/vendors/jarallax/jarallax.css">
+    <!--  magnific-popup css plugins -->
+    <link rel="stylesheet" href="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css">
+    <!--  nouislider css plugins -->
+    <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.min.css">
+    <!--  nouislider css plugins -->
+    <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.pips.css">
+    <!--  nouislider css plugins -->
+    <link rel="stylesheet" href="assets/vendors/eolimn-icons/style.css">
+    <!--  slider css plugins -->
+    <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="assets/vendors/slick-carousel/slick.css">
+    <link rel="stylesheet" href="assets/vendors/slick-carousel/slick-theme.css">
+    <!-- template styles -->
+    <link rel="stylesheet" href="assets/css/eolimn.css">
+</head>
+
+<body class="custom-cursor">
+
+    <!-- Custom Cursor -->
+    <div class="custom-cursor__cursor"></div>
+    <div class="custom-cursor__cursor-two"></div>
+
+    <!-- Preloader Start-->
+    <div class="preloader">
+        <div class="preloader__image" style="background-image: url(assets/images/loader.png);"></div>
+    </div>
+    <!-- Preloader End-->
+
+    <div class="page-wrapper">
+        <!-- Header Topbar -->
+
+        <header class="main-header sticky-header sticky-header--normal">
+            <div class="container-fluid">
+                <div class="main-header__inner">
+                    <div class="main-header__logo logo-eolimn">
+                        <a href="index.html">
+                            <img src="assets/images/logo-dark.png" alt="eolimn HTML" width="155">
+                        </a>
+                    </div>
+                    <nav class="main-header__nav main-menu">
+                        <ul class="main-menu__list one-page-scroll-menu">
+                            <li class="dropdown megamenu scrollToLink current">
+                                <a href="#home">Home</a>
+                                <ul>
+                                    <li>
+                                        <section class="home-showcase">
+                                            <div class="container">
+                                                <div class="home-showcase__inner">
+                                                    <div class="row">
+                                                        <div class="col-md-6 col-lg-3">
+                                                            <div class="demo-one__card">
+                                                                <div class="demo-one__image">
+                                                                    <img src="assets/images/home-showcase/home-showcase-1.jpg" alt=" showcase image">
+                                                                    <div class="demo-one__btns">
+                                                                        <a href="index.html" class="eolimn-btn eolimn-btn--base demo-one__btn">Multi Page</a>
+                                                                        <a href="index-one-page.html" class="eolimn-btn eolimn-btn--base demo-one__btn">One Page</a>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="demo-one__content">
+                                                                    <h3 class="demo-one__title">
+                                                                        <a href="index.html">Dreamline AI</a>
+                                                                    </h3>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-6 col-lg-3">
+                                                            <div class="demo-one__card">
+                                                                <div class="demo-one__image">
+                                                                    <img src="assets/images/home-showcase/home-showcase-2.jpg" alt="showcase image">
+                                                                    <div class="demo-one__btns">
+                                                                        <a href="index-2.html" class="eolimn-btn eolimn-btn--base demo-one__btn">Multi Page</a>
+                                                                        <a href="index-2-one-page.html" class="eolimn-btn eolimn-btn--base demo-one__btn">One Page</a>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="demo-one__content">
+                                                                    <h3 class="demo-one__title">
+                                                                        <a href="index-2.html">Home Page 02</a>
+                                                                    </h3>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-6 col-lg-3">
+                                                            <div class="demo-one__card">
+                                                                <div class="demo-one__image">
+                                                                    <img src="assets/images/home-showcase/home-showcase-3.jpg" alt="showcase image">
+                                                                    <div class="demo-one__btns">
+                                                                        <a href="index-3.html" class="eolimn-btn eolimn-btn--base demo-one__btn">Multi Page</a>
+                                                                        <a href="index-3-one-page.html" class="eolimn-btn eolimn-btn--base demo-one__btn">One Page</a>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="demo-one__content">
+                                                                    <h3 class="demo-one__title">
+                                                                        <a href="index-3.html">Home Page 03</a>
+                                                                    </h3>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-6 col-lg-3">
+                                                            <div class="demo-one__card">
+                                                                <div class="demo-one__image">
+                                                                    <img src="assets/images/home-showcase/home-showcase-4.jpg" alt="showcase image">
+                                                                    <div class="demo-one__btns">
+                                                                        <a href="index-dark.html" class="eolimn-btn demo-one__btn eolimn-btn--base">View Page</a>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="demo-one__content">
+                                                                    <h3 class="demo-one__title">
+                                                                        <a href="index-dark.html">Home Dark</a>
+                                                                    </h3>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </section>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="scrollToLink"><a href="#about">About</a></li>
+                            <li class="scrollToLink"><a href="https://donorbox.org/site-donation-page">Donate</a></li>
+                            <li class="scrollToLink"><a href="#about">Volunteer</a></li>
+                            <li class="scrollToLink"><a href="#about">Free Energy Audit</a></li>
+                        </ul>
+                    </nav>
+                    <div class="main-header__right">
+                        <a href="contact.html" class="main-header__right__btn eolimn-btn">join us today <i class="icon-arrow-point-to-right"></i></a>
+                        <a href="tel:+92-3800-8060" class="main-header__right__call">
+                            <div class="main-header__right__icon">
+                                <i class="icon-email"></i>
+                            </div>
+                            <div class="main-header__right__content">
+                                <span class="main-header__right__text">email</span>
+                                <h6 class="main-header__right__number">info@cdreams.org</h6>
+                            </div>
+                        </a>
+                        <div class="main-header__element">
+                            <div class="main-header__element__btn">
+                                <i class="icon-interface"></i>
+                            </div>
+                            <div class="mobile-nav__btn mobile-nav__toggler">
+                                <span></span><span></span><span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
