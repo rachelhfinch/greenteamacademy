@@ -1,0 +1,114 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #2d613f;
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.sign-up {
+    background-color: #eae54f;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px;
+    background-color: #e0f2e9;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+}
+
+.start-now {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #2d613f;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Offerings */
+.offerings {
+    padding: 50px;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+.offer-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.offer {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 200px;
+}
+
+/* Course Details */
+.salary-info {
+    text-align: center;
+    padding: 50px;
+    background-color: #f0f5f3;
+}
+
+.course-method {
+    padding: 50px;
+    text-align: center;
+}
+
+.course-method-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Partner Section */
+.partner {
+    padding: 50px;
+    background-color: #e0f2e9;
+    text-align: center;
+}
+
+/* Reviews */
+.reviews {
+    padding: 50px;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+/* FAQ */
+.faq {
+    padding: 50px;
+    background-color: #f0f5f3;
+}
