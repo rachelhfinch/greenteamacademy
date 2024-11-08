@@ -3,126 +3,217 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Green Team Academy</title>
-    <link rel="stylesheet" href="css/styles.css"> <!-- Link to the external CSS file -->
+    <title>Community Dreams Foundation - Green Team Academy</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        /* Navbar */
+        .navbar {
+            background-color: #004d00;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+        }
+        
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+        
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: url('path-to-hero-image.jpg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 4rem 2rem;
+        }
+        
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+        }
+        
+        .hero .btn {
+            background-color: #007f00;
+            color: white;
+            padding: 0.5rem 1.5rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+        
+        .hero .btn:hover {
+            background-color: #006600;
+        }
+        
+        /* Main Content */
+        .content-section {
+            padding: 2rem;
+            text-align: center;
+        }
+        
+        .content-section h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #007f00;
+        }
+        
+        .content-section p {
+            font-size: 1rem;
+            margin-bottom: 1rem;
+        }
+        
+        .content-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+        
+        .content-grid .card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 1.5rem;
+        }
+        
+        .content-grid .card h3 {
+            color: #004d00;
+            margin-bottom: 0.5rem;
+        }
+        
+        /* FAQ Section */
+        .faq-section {
+            background-color: #e0e0e0;
+            padding: 2rem;
+            text-align: left;
+        }
+        
+        .faq-section h2 {
+            color: #007f00;
+            margin-bottom: 1rem;
+            font-size: 1.8rem;
+        }
+        
+        .faq-section .faq {
+            margin-bottom: 1rem;
+        }
+        
+        .faq-section .faq p {
+            margin-top: 0.5rem;
+            font-size: 0.9rem;
+        }
+        
+        /* Footer */
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
 
-    <!-- Header Section -->
-    <header class="header">
-        <nav class="navbar">
-            <div class="logo">Community Dreams Foundation</div>
-            <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Donate</a></li>
-                <li><a href="#">Volunteer</a></li>
-                <li><a href="#">Learning</a></li>
-                <li><a href="#">Sign In</a></li>
-                <li><a href="#" class="sign-up">Sign Up</a></li>
-            </ul>
-        </nav>
-        <div class="hero">
-            <h1>Green Dreams Start Here: Become an Energy Auditing Expert</h1>
-            <p>Sign up for your FREE Course in Energy Auditing</p>
-            <ul>
-                <li>Mentorship from Industry Experts</li>
-                <li>Backed by Job Qualifier through our Placement Platform</li>
-                <li>Accreditation through partnership with University of Miami</li>
-            </ul>
-            <button class="start-now">Start now</button>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h1>Community Dreams Foundation</h1>
+        <div>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Donate</a>
+            <a href="#">Volunteer</a>
+            <a href="#">Learning</a>
+            <a href="#">Sign In</a>
+            <a href="#">Sign Up</a>
         </div>
-    </header>
+    </nav>
 
-    <!-- Offerings Section -->
-    <section class="offerings">
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Green Dreams Start Here: Become an Energy Auditing Expert</h1>
+        <p>Sign up for your FREE Course in Energy Auditing</p>
+        <ul>
+            <li>Mentorship from Industry Experts</li>
+            <li>Backed by Job Qualifier through our Placement Platform</li>
+            <li>Accreditation through partnership with University of Miami</li>
+        </ul>
+        <button class="btn">Start now</button>
+    </section>
+
+    <!-- Content Section -->
+    <section class="content-section">
         <h2>Green Team Academy Offers:</h2>
-        <div class="offer-container">
-            <div class="offer">
+        <div class="content-grid">
+            <div class="card">
                 <h3>Certification</h3>
                 <p>Become a sustainability champion! Earn Green Energy Auditor certification online and launch your eco-friendly career in just 10 hours.</p>
             </div>
-            <div class="offer">
+            <div class="card">
                 <h3>Job Placement</h3>
-                <p>Skills to land the job! Our platform connects you with top employers to give you the career jumpstart you need.</p>
+                <p>Skills to land the job! Our platform connects you with top employers looking for green energy professionals.</p>
             </div>
-            <div class="offer">
+            <div class="card">
                 <h3>Financial Assistance</h3>
-                <p>Explore assistance for tuition, training, and certification fees to make a future for you and our earth accessible for all.</p>
+                <p>Explore scholarships and training grants to reduce training costs and ease your transition into a green career.</p>
             </div>
-            <div class="offer">
+            <div class="card">
                 <h3>Community Development</h3>
-                <p>Provide pathways to your neighbors in need by partnering with us to help develop and revitalize communities.</p>
+                <p>Join a network of green professionals and advocates to create a lasting impact on the environment.</p>
             </div>
-        </div>
-    </section>
-
-    <!-- Course Details Section -->
-    <section class="course-details">
-        <div class="salary-info">
-            <h2>Energy Auditors earn on average $74,075 per year.</h2>
-            <button class="learn-more">Learn More</button>
-        </div>
-
-        <div class="course-method">
-            <h2>How Our Course Works</h2>
-            <div class="course-method-cards">
-                <div class="card">
-                    <h3>Online Course</h3>
-                    <p>10 hours of entry-level course that covers the basics you need to become an energy auditing certificate.</p>
-                </div>
-                <div class="card">
-                    <h3>Virtual Classes</h3>
-                    <p>Continue your knowledge by signing up for our live online classes that dive into technical green collar fields.</p>
-                </div>
-                <div class="card">
-                    <h3>In-Person Training</h3>
-                    <p>In-person education to demonstrate your auditing skills. This in-person helps you gain your accreditation.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Partner Section -->
-    <section class="partner">
-        <h2>Meet our partner: University of Miami</h2>
-        <p>University of Miami has a deep partnership with us here at Green Team Academy to offer not just the ability to transfer course material but also to seek additional aid by utilizing the yada da da da deedoo.</p>
-    </section>
-
-    <!-- User Reviews Section -->
-    <section class="reviews">
-        <h2>User Reviews</h2>
-        <div class="review">
-            <p>"@greenteamacademy is the best. It helped me jumpstart my career and quickly acquire a reliable role at a high-volume landscaping company!"</p>
-            <span>- Sabrina Wertie, Crew Leader at Greenspac Co.</span>
-        </div>
-        <div class="review">
-            <p>"I owe my success to this course. They made it really easy to learn the required things in order to get me into the field, alongside their incredible job placement program."</p>
-            <span>- Jason Smith, Energy Auditing Contractor</span>
         </div>
     </section>
 
     <!-- FAQ Section -->
-    <section class="faq">
-        <h2>Frequently asked questions</h2>
-        <details>
-            <summary>Does the energy auditing course cost?</summary>
+    <section class="faq-section">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq">
+            <h3>Does the energy auditing course cost?</h3>
             <p>Absolutely not! Taking the course is free for anyone who would like to dedicate their future toward green energy!</p>
-        </details>
-        <details>
-            <summary>Will my certification be accredited?</summary>
-            <p>Yes, the certification is accredited.</p>
-        </details>
-        <details>
-            <summary>How does the job placement platform work and how effective is it?</summary>
-            <p>Our platform connects qualified graduates with employers in need of green energy skills.</p>
-        </details>
-        <details>
-            <summary>What opportunities does the University of Miami offer?</summary>
-            <p>University of Miami offers various green energy and sustainability programs for hands-on experience.</p>
-        </details>
+        </div>
+        <div class="faq">
+            <h3>Will my certification be accredited?</h3>
+            <p>Yes! The course is fully accredited and backed by recognized institutions.</p>
+        </div>
+        <div class="faq">
+            <h3>How does the job placement platform work and how effective is it?</h3>
+            <p>Our platform has partnered with industry leaders to help graduates find green energy jobs.</p>
+        </div>
+        <div class="faq">
+            <h3>What opportunities does the University of Miami offer?</h3>
+            <p>The University of Miami provides course material, additional resources, and industry insights.</p>
+        </div>
     </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Community Dreams Foundation. All rights reserved.</p>
+    </footer>
 
 </body>
 </html>
-
